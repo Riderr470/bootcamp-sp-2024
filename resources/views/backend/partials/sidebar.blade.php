@@ -21,9 +21,28 @@
               </a>
             </li>
             <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="{{route('category.create')}}">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Category
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="{{route('category.view')}}">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                View Category
+              </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="{{route('products.list')}}">
                 <svg class="bi"><use xlink:href="#file-earmark"/></svg>
                 Products
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="{{route('personal.form')}}">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Personal Form
               </a>
             </li>
             
